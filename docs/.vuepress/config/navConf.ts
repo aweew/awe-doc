@@ -13,9 +13,9 @@ export default [
             {text: 'JavaScript', link: '/frontend/javascript/'},
             {text: 'TypeScript', link: '/frontend/typescript/'},
             {text: 'Vue', link: '/frontend/vue/'},
-            {text: 'React', link: '/frontend/React/'},
+            {text: 'React', link: '/frontend/react/'},
     ]},
-    {text: '🎯 算法', link: '/algorithms/'},
+    {text: '🎯 算法', link: '/algorithm/'},
     {text: '🥤 更多', children: [
             {text: '博客', link: 'https://www.aweew.com'},
             {text: 'Github', link: 'https://github.com/aweew'},

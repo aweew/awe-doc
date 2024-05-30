@@ -3,6 +3,7 @@ import {defaultTheme} from '@vuepress/theme-default'
 import {defineUserConfig} from 'vuepress'
 import navConf from "./config/navConf";
 import sidebarConf from "./config/sidebarConf";
+import pluginConf from "./config/pluginConf";
 
 export default defineUserConfig({
     bundler: viteBundler(),
@@ -22,6 +23,7 @@ export default defineUserConfig({
         docsBranch: 'master',
         // 默认主题配置
         navbar: navConf,
-        sidebar: sidebarConf,
+        // sidebar: sidebarConf,
+        plugins: pluginConf,
     }),
 })
