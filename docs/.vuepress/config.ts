@@ -9,9 +9,9 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: 'Awe-docs',
     description: '这是我的第一个 VuePress 站点',
-    head: [['link', {rel: 'icon', href: '/logo.png'}]],
 
     theme: defaultTheme({
+        logo: '/logo.png',
         docsDir: 'docs',
         // 默认主题配置
         navbar: navConf,
